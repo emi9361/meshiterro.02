@@ -20,7 +20,3 @@ class UsersController < ApplicationController
   end
 end
 
-画像出す時
-<%= attachment_image_tag @user, :profile_image %>
-画像投稿
-<%= f.attachment_field :profile_image,placeholder:%>
